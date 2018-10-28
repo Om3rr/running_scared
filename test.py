@@ -3,10 +3,11 @@ import time
 
 
 for i in range(100):
-  print(f"test-{i}")
-  with open(f"output/file-{random.randint(0,100)}.txt", "w") as f:
-    f.write(f"hello123{random.randint(0,1000)}")
-    f.write(f"hello123{random.randint(0,1000)}")
-    f.write(f"hello123{random.randint(0,1000)}")
-    f.write(f"hello123{random.randint(0,1000)}")
+  print("test-%s"%i)
+  with open("output/file-%s.txt"%random.randint(0,100), "w") as f:
+    f.write("hello123%s"%random.randint(0,1000))
+    f.write("hello123%s"%random.randint(0,1000))
+    f.write("hello123%s"%random.randint(0,1000))
+    f.write("hello123%s"%random.randint(0,1000))
+    f.write("hello123%s"%random.randint(0,1000))
   time.sleep(5)
