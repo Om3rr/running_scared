@@ -1,6 +1,7 @@
 import random
 import time
-
+import os
+os.mkdir("output")
 
 for i in range(100):
   print("test-%s"%i)
