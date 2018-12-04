@@ -1,7 +1,6 @@
 import random
 import time
 import os
-os.mkdir('output')
 for i in range(1000):
   print("test-%s"%i)
   with open("output/file-%s.txt"%random.randint(0,100), "w+") as f:
