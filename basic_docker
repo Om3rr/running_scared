@@ -1,0 +1,5 @@
+from ruby:rc-alpine
+RUN apk update && apk upgrade && apk add bash
+RUN gem install cnvrg && mkdir -p /home/ds
+ENV HOME=/home/ds
+CMD ["bash"]
