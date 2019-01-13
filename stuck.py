@@ -1,3 +1,3 @@
 import time
-for i in range(100):
-  sleep(60*60)
+print("Going to sleep...")
+time.sleep(60*60)
