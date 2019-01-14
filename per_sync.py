@@ -1,7 +1,7 @@
 import random
 import time
 import os
-if(!os.path.isdir('output')):
+if(not os.path.isdir('output')):
   os.mkdir('output')
   
  
