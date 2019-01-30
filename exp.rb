@@ -1,8 +1,8 @@
-23.times { |i| puts "cnvrg_linechart_LossLog value: '#{"%f" % (1/((i+1)**2).to_f).to_s}'"; }
+23.times { |i| puts "cnvrg_linechart_LossLog value: '#{"%f" % (1/((i+1)**2).to_f).to_s}'" }
 puts "==="
 puts "==="
 puts "==="
-50.times { |i| puts "cnvrg_linechart_AccuracyLog value: '#{"%f" % (i**2 * 0.000001).to_s}'"; }
+50.times { |i| puts "cnvrg_linechart_AccuracyLog value: '#{"%f" % (i**2 * 0.000001).to_s}'"}
 sleep(10)
 puts "cnvrg_tag_Accuracy: 0.9766"
 puts "cnvrg_tag_Algorithm: NeuralNetworks"
