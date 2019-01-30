@@ -1,9 +1,8 @@
-23.times { |i| puts "cnvrg_linechart_LossLog value: '#{"%f" % (1/((i+1)**2).to_f).to_s}'"; sleep(14) }
+23.times { |i| puts "cnvrg_linechart_LossLog value: '#{"%f" % (1/((i+1)**2).to_f).to_s}'"; }
 puts "==="
 puts "==="
 puts "==="
-sleep 1
-50.times { |i| puts "cnvrg_linechart_AccuracyLog value: '#{"%f" % (i**2 * 0.000001).to_s}'"; sleep(14) }
+50.times { |i| puts "cnvrg_linechart_AccuracyLog value: '#{"%f" % (i**2 * 0.000001).to_s}'"; }
 
 puts "cnvrg_tag_Accuracy: 0.9766"
 puts "cnvrg_tag_Algorithm: NeuralNetworks"
@@ -31,8 +30,7 @@ keras_lines = ["Train on 2394 samples, validate on 1027 samples", "Epoch 1/10",
                                                                                 
                                                                                 
 keras_lines.each do |l|                                                         
-      puts l                                                                      
-      sleep(14)
+      puts l       
 end   
 `cp ../image1.png .`                                                           
 #
