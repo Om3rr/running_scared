@@ -3,7 +3,7 @@ puts "==="
 puts "==="
 puts "==="
 50.times { |i| puts "cnvrg_linechart_AccuracyLog value: '#{"%f" % (i**2 * 0.000001).to_s}'"; }
-
+sleep(10)
 puts "cnvrg_tag_Accuracy: 0.9766"
 puts "cnvrg_tag_Algorithm: NeuralNetworks"
 puts "cnvrg_tag_Architecture: RNN (LSTM)"
@@ -11,7 +11,7 @@ puts "cnvrg_tag_FeaturesDim:200"
 puts "cnvrg_tag_BatchSize:32"
 puts "cnvrg_tag_epochs:10" 
 puts "cnvrg_tag_WordEmbedding:FastText" 
-
+sleep(10)
 puts "============================"                                             
 puts "Loading model"                                                            
                                                                                 
