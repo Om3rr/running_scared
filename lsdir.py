@@ -9,4 +9,4 @@ else:
   os.mkdir('output')
   f = open('output/test', 'w+')
   f.write("the number is: %s"%random.randint(0,1000))
-  print("Hello world")
+  print("Hello world12344")
